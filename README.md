@@ -13,3 +13,15 @@ print(quicksort([5, 2, 9, 1, 5]))  # [1, 2, 5, 5, 9]
 ```
 
 运行测试：`python3 -m unittest -v`
+
+## 冒泡排序
+
+`bubble_sort.py` 实现了冒泡排序（平均 O(n²)，原地交换，已有序时提前结束）：
+
+```python
+from bubble_sort import bubble_sort
+
+print(bubble_sort([5, 2, 9, 1, 5]))  # [1, 2, 5, 5, 9]
+```
+
+运行测试：`python3 -m unittest -v`
