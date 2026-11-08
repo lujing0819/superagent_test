@@ -27,3 +27,16 @@ print(format_solution(solutions[0]))
 ```
 
 运行测试：`python3 -m unittest -v`
+
+## 接雨水
+
+`trapping_rain_water.py` 实现 LeetCode 42 接雨水的两种解法：双指针（O(n) 时间、O(1) 额外空间）和
+前缀最大值（O(n) 时间、O(n) 额外空间）：
+
+```python
+from trapping_rain_water import trap
+
+print(trap([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]))  # 6
+```
+
+运行测试：`python3 -m unittest -v`
