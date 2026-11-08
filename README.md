@@ -14,6 +14,18 @@ print(quicksort([5, 2, 9, 1, 5]))  # [1, 2, 5, 5, 9]
 
 运行测试：`python3 -m unittest -v`
 
+## 桶排序
+
+`bucket_sort.py` 实现了桶排序（数据分布均匀时期望 O(n)，桶内用插入排序）：
+
+```python
+from bucket_sort import bucket_sort
+
+print(bucket_sort([0.42, 0.13, 0.97, 0.05]))  # [0.05, 0.13, 0.42, 0.97]
+```
+
+运行测试：`python3 -m unittest -v`
+
 ## 八皇后
 
 `eight_queens.py` 用回溯法求解八皇后问题，返回全部 92 个解：
